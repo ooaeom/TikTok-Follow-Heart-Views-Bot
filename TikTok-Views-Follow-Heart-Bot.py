@@ -1,4 +1,4 @@
-from selenium import webdriver
+Qfrom selenium import webdriver
 from selenium.webdriver.support.ui import Select
 import pyfiglet
 from os import system
@@ -101,7 +101,7 @@ def loop4():
         sleep(wait_time)
         loop4()
 
-vidUrl = "https://www.tiktok.com/@social_degradation_crazy/video/6890937108874169601" #Change with one of your tiktok videos
+vidUrl = "https://vt.tiktok.com/ZS8YTqbco/" #Change with one of your tiktok videos
 
 system("clear") #If you have Windows you can use cls
 tiktokbot = pyfiglet.figlet_format("NoNameoN", font="slant")
